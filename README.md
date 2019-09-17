@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # eladmin-qt
 
 eladmin 前端源码
@@ -29,7 +28,4 @@ npm run dev
 
 # 构建生产环境
 npm run build
-=======
-# FastSpringBootTemplate-ui
->>>>>>> c9faf66fe98122d6d47fec8b5c37acfed2d4be4b
 # FastSpringBootTemplateUI
