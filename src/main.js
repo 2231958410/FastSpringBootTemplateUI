@@ -10,6 +10,9 @@ import 'mavon-editor/dist/css/index.css'
 import Avue from '@smallwei/avue';
 import '@smallwei/avue/lib/index.css';
 
+import axios from 'axios';
+window.axios = axios;
+
 import '@/styles/index.scss' // global css
 
 import App from './App'
