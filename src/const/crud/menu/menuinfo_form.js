@@ -1,17 +1,12 @@
-export const tableoption = {
+export const formtableoption = {
 	index: true,
 	indexLabel: 'ID',
 	height: '200px',
 	border: false,
 	align: 'center',
 	menuAlign: 'center',
-	submitText: '更新',
+	submitText: '添加',
 	column: [
-		{
-			label: '菜单ID',
-			prop: 'id',
-			readonly: 'true'
-		},
 		{
 			label: '父ID',
 			prop: 'pid'
@@ -43,9 +38,9 @@ export const tableoption = {
 		{
 			label: '创建时间',
 			type: 'datetime',
-			readonly: true,
-			format: 'yyyy-MM-dd hh:mm:ss',//显示的时间格式
+			display: false,
+			valueFormat: 'yyyy-MM-dd hh:mm:ss', //真正发往后台的时间格式
 			prop: 'createTime'
-		}
+		},
 	]
 }
